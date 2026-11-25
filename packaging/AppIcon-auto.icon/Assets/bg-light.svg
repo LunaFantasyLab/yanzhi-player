@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>胭脂绯红釉光底</title>
+  <defs>
+    <linearGradient id="baseB" x1="0.04" y1="0.16" x2="0.96" y2="0.86">
+      <stop offset="0%" stop-color="#871436"/>
+      <stop offset="36%" stop-color="#BA1945"/>
+      <stop offset="70%" stop-color="#E11F52"/>
+      <stop offset="100%" stop-color="#F43A68"/>
+    </linearGradient>
+    <radialGradient id="lowerLeftRedB" cx="0.16" cy="0.86" r="0.58">
+      <stop offset="0%" stop-color="#9B153D" stop-opacity="0.62"/>
+      <stop offset="55%" stop-color="#881235" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#881235" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="topLeftRedB" cx="0.24" cy="0.26" r="0.64">
+      <stop offset="0%" stop-color="#D4204F" stop-opacity="0.72"/>
+      <stop offset="54%" stop-color="#AD1740" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#8A1235" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rubyGlowB" cx="0.84" cy="0.40" r="0.66">
+      <stop offset="0%" stop-color="#FF426E" stop-opacity="0.90"/>
+      <stop offset="50%" stop-color="#E82454" stop-opacity="0.50"/>
+      <stop offset="100%" stop-color="#C21846" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blushGlowB" cx="0.76" cy="0.82" r="0.56">
+      <stop offset="0%" stop-color="#FF8DA8" stop-opacity="0.68"/>
+      <stop offset="50%" stop-color="#FF5B82" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#EB2456" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glossB" x1="0.10" y1="0.0" x2="0.82" y2="0.88">
+      <stop offset="0%" stop-color="#FFF0F4" stop-opacity="0.34"/>
+      <stop offset="28%" stop-color="#FFD8E4" stop-opacity="0.12"/>
+      <stop offset="68%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#780B29" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#baseB)"/>
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#lowerLeftRedB)"/>
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#topLeftRedB)"/>
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#rubyGlowB)"/>
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#blushGlowB)"/>
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#glossB)"/>
+</svg>

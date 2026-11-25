@@ -1,0 +1,62 @@
+{
+  "fill-specializations": [
+    {
+      "value": {
+        "solid": "srgb:0.52941,0.07843,0.21176,1.00000"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "正常折扇",
+      "layers": [
+        {
+          "name": "正常折扇",
+          "image-name-specializations": [
+            {
+              "value": "art-dark.svg"
+            }
+          ],
+          "glass": false
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.24
+      },
+      "specular": false,
+      "translucency": {
+        "enabled": false,
+        "value": 0
+      }
+    },
+    {
+      "name": "胭脂光泽底",
+      "layers": [
+        {
+          "name": "胭脂绯红釉光",
+          "image-name-specializations": [
+            {
+              "value": "bg-dark.svg"
+            }
+          ],
+          "glass": false
+        }
+      ],
+      "shadow": {
+        "kind": "none",
+        "opacity": 0
+      },
+      "specular": false,
+      "translucency": {
+        "enabled": false,
+        "value": 0
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": [
+      "macOS"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+胭脂 第三方组件与许可
+
+胭脂本身由作者（Luna Fantasy Lab）开发。安装包里还带有下面这些开源组件，各自的许可全文在同一个文件夹里。
+
+■ mpv（libmpv） 0.41.0
+  用途：播放内核
+  许可：LGPL-2.1-or-later（按 LGPL 方式构建）（静态链接）
+  源码：https://github.com/mpv-player/mpv/tree/v0.41.0
+  许可文件：mpv-Copyright.txt, LGPL-2.1.txt
+
+■ FFmpeg n9.0.2
+  用途：音视频解码
+  许可：LGPL-2.1-or-later（未启用 GPL 部分）（静态链接）
+  源码：https://github.com/FFmpeg/FFmpeg/tree/n9.0.2
+  许可文件：FFmpeg-LICENSE.md, LGPL-2.1.txt
+
+■ MPVKit 1.1.0-n9.0.2
+  用途：把 mpv、FFmpeg 及依赖预编译成 macOS 库（LGPL 版，不是 -GPL 版）
+  许可：LGPL-3.0（静态链接）
+  源码：https://github.com/mpvkit/MPVKit/tree/1.1.0-n9.0.2
+  许可文件：MPVKit-LICENSE-LGPL-3.0.txt
+
+■ libplacebo 7.360.1
+  用途：视频渲染
+  许可：LGPL-2.1-or-later（静态链接）
+  源码：https://code.videolan.org/videolan/libplacebo/-/tree/v7.360.1
+  许可文件：LGPL-2.1.txt
+
+■ libass 0.17.x（libass-build 0.17.5）
+  用途：字幕渲染
+  许可：ISC（静态链接）
+  源码：https://github.com/libass/libass
+  许可文件：libass-ISC.txt
+
+■ FriBidi 随 libass-build 0.17.5
+  用途：字幕双向文字
+  许可：LGPL-2.1-or-later（静态链接）
+  源码：https://github.com/fribidi/fribidi
+  许可文件：LGPL-2.1.txt
+
+■ FreeType 随 libass-build 0.17.5
+  用途：字幕字形
+  许可：FreeType License（FTL）（静态链接）
+  源码：https://gitlab.freedesktop.org/freetype/freetype
+  许可文件：FreeType-FTL.txt
+
+■ HarfBuzz 随 libass-build 0.17.5
+  用途：字幕排版
+  许可：MIT（静态链接）
+  源码：https://github.com/harfbuzz/harfbuzz
+  许可文件：harfbuzz-MIT.txt
+
+■ libunibreak 随 libass-build 0.17.5
+  用途：字幕断行
+  许可：zlib（静态链接）
+  源码：https://github.com/adah1972/libunibreak
+  许可文件：libunibreak-zlib.txt
+
+■ GnuTLS 3.8.11
+  用途：网络流加密
+  许可：LGPL-2.1-or-later（静态链接）
+  源码：https://www.gnutls.org/
+  许可文件：LGPL-2.1.txt
+
+■ Nettle / Hogweed 随 gnutls-build 3.8.11
+  用途：加密算法
+  许可：LGPL-3.0-or-later 或 GPL-2.0-or-later（选 LGPL）（静态链接）
+  源码：https://www.lysator.liu.se/~nisse/nettle/
+  许可文件：LGPL-3.0.txt
+
+■ GMP 随 gnutls-build 3.8.11
+  用途：大数运算
+  许可：LGPL-3.0-or-later 或 GPL-2.0-or-later（选 LGPL）（静态链接）
+  源码：https://gmplib.org/
+  许可文件：LGPL-3.0.txt
+
+■ OpenSSL 3.3.5
+  用途：网络流加密
+  许可：Apache-2.0（静态链接）
+  源码：https://github.com/openssl/openssl/tree/openssl-3.3.5
+  许可文件：OpenSSL-Apache-2.0.txt
+
+■ libbluray 1.4.0
+  用途：蓝光目录读取
+  许可：LGPL-2.1-or-later（静态链接）
+  源码：https://code.videolan.org/videolan/libbluray
+  许可文件：LGPL-2.1.txt
+
+■ uchardet 0.0.8
+  用途：字幕文件编码识别
+  许可：MPL-1.1 / GPL-2.0-or-later / LGPL-2.1-or-later 三选一（选 LGPL）（静态链接）
+  源码：https://gitlab.freedesktop.org/uchardet/uchardet
+  许可文件：uchardet-COPYING.txt
+
+■ dav1d 1.5.3
+  用途：AV1 解码
+  许可：BSD-2-Clause（静态链接）
+  源码：https://code.videolan.org/videolan/dav1d
+  许可文件：dav1d-BSD-2.txt
+
+■ uavs3d 1.2.1
+  用途：AVS3 解码
+  许可：BSD-3-Clause（静态链接）
+  源码：https://github.com/uavs3/uavs3d
+  许可文件：uavs3d-LICENSE.txt
+
+■ LuaJIT 2.1
+  用途：mpv 脚本引擎（胭脂不加载脚本）
+  许可：MIT（静态链接）
+  源码：https://luajit.org/
+  许可文件：LuaJIT-MIT.txt
+
+■ Little CMS 2.17
+  用途：色彩管理
+  许可：MIT（静态链接）
+  源码：https://github.com/mm2/Little-CMS
+  许可文件：lcms2-MIT.txt
+
+■ libdovi 3.3.2
+  用途：杜比视界元数据
+  许可：MIT（静态链接）
+  源码：https://github.com/quietvoid/dovi_tool
+  许可文件：libdovi-MIT.txt
+
+■ MoltenVK 1.4.2
+  用途：Vulkan 到 Metal（随库链接）
+  许可：Apache-2.0（静态链接）
+  源码：https://github.com/KhronosGroup/MoltenVK
+  许可文件：MoltenVK-Apache-2.0.txt
+
+■ shaderc 2025.5.0
+  用途：着色器编译（随库链接）
+  许可：Apache-2.0（静态链接）
+  源码：https://github.com/google/shaderc
+  许可文件：shaderc-Apache-2.0.txt
+
+■ Sparkle 2.10.1
+  用途：手动检查更新、校验签名、替换
+  许可：MIT（内含组件见其许可文件）（动态框架，在 App 里）
+  源码：https://github.com/sparkle-project/Sparkle/tree/2.10.1
+  许可文件：Sparkle-LICENSE.txt
+
+
+不在安装包里的部分
+
+■ whisper.cpp v1.9.5：本地语音识别（自动生成字幕）。MIT。不在安装包里；这个版本没有提供下载。
+■ Whisper large-v3-turbo 模型（q5_0，约 547 MB） —：语音识别模型。MIT（OpenAI Whisper 权重）。不在安装包里。
+■ Silero VAD 模型 v6.2.0：识别前找出有人说话的片段。MIT。不在安装包里。
+■ AutoEq 耳机曲线数据 —：耳机校正；选用时联网下载并缓存。MIT。运行时下载。
+
+
+关于 LGPL 组件
+胭脂静态链接了上面标为 LGPL 的库（mpv、FFmpeg、libplacebo、FriBidi、GnuTLS、Nettle、GMP、libbluray、uchardet，以及 MPVKit 的构建产物）。
+按 LGPL 的要求：
+1. 这些库的完整源码（上面的源码地址，对应版本）可以随时向作者索取（{{CONTACT}}）；发布站点的 /source/ 目录里也放了一份与本版本对应的副本。
+2. 你有权修改这些库并重新链接到胭脂。需要胭脂的目标文件（.o）和链接说明来做这件事的，可以向作者索取（{{CONTACT}}），作者会免费提供，期限至少三年。
+3. 胭脂不限制你为调试这些修改而对胭脂做逆向工程。

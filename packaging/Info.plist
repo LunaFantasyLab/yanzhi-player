@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key><string>zh_CN</string>
+	<key>CFBundleLocalizations</key><array><string>zh-Hans</string></array>
+	<key>CFBundleAllowMixedLocalizations</key><true/>
+	<key>CFBundleDisplayName</key><string>胭脂</string>
+	<key>CFBundleName</key><string>胭脂</string>
+	<key>CFBundleExecutable</key><string>GlassPlayer</string>
+	<key>CFBundleIdentifier</key><string>com.tanco.glassplayer</string>
+	<key>CFBundleIconFile</key><string>AppIcon</string>
+	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>CFBundleShortVersionString</key><string>0.1.0</string>
+	<key>CFBundleVersion</key><string>1</string>
+	<key>NSHumanReadableCopyright</key><string>© 2026 Luna Fantasy Lab · 源码公开·非商业许可 PolyForm Noncommercial 1.0.0 · 禁止任何形式的商业使用</string>
+	<key>LSMinimumSystemVersion</key><string>15.0</string>
+	<key>LSApplicationCategoryType</key><string>public.app-category.music</string>
+	<key>NSHighResolutionCapable</key><true/>
+	<key>NSPrincipalClass</key><string>NSApplication</string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key><true/>
+	<!-- 检查更新（Sparkle 2）：只有本人点「检查更新…」才联网；不自动检查、不自动下载安装、不上报系统信息、不弹首次询问 -->
+	<key>SUEnableAutomaticChecks</key><false/>
+	<key>SUAutomaticallyUpdate</key><false/>
+	<key>SUAllowsAutomaticUpdates</key><false/>
+	<key>SUEnableSystemProfiling</key><false/>
+	<key>SUVerifyUpdateBeforeExtraction</key><true/>
+	<!-- 更新包 EdDSA 签名的公钥：自行构建时换成你自己用 Sparkle generate_keys 生成的公钥 -->
+	<key>SUPublicEDKey</key><string></string>
+	<!-- 更新源地址（appcast）；留空时「检查更新」只提示还没设置。构建时可用 UPDATE_FEED_URL=… 填入 -->
+	<key>LiuliUpdateFeedURL</key><string></string>
+	<key>LiuliPaletteRevision</key><string>tq-0419-glaze-7c3e</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key><string>音频</string>
+			<key>CFBundleTypeRole</key><string>Viewer</string>
+			<key>LSHandlerRank</key><string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.audio</string>
+				<string>public.mp3</string>
+				<string>org.xiph.flac</string>
+				<string>com.apple.m4a-audio</string>
+				<string>com.microsoft.waveform-audio</string>
+				<string>public.aiff-audio</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key><string>视频</string>
+			<key>CFBundleTypeRole</key><string>Viewer</string>
+			<key>LSHandlerRank</key><string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.movie</string>
+				<string>public.mpeg-4</string>
+				<string>com.apple.quicktime-movie</string>
+				<string>org.matroska.mkv</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key><string>文件夹</string>
+			<key>CFBundleTypeRole</key><string>Viewer</string>
+			<key>LSHandlerRank</key><string>None</string>
+			<key>LSItemContentTypes</key>
+			<array><string>public.folder</string></array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key><string>其他媒体文件</string>
+			<key>CFBundleTypeRole</key><string>Viewer</string>
+			<key>LSHandlerRank</key><string>Alternate</string>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>ape</string><string>dsf</string><string>dff</string><string>wv</string><string>opus</string><string>ogg</string>
+				<string>mka</string><string>tta</string><string>mpc</string><string>mkv</string><string>webm</string><string>flv</string>
+				<string>ts</string><string>m2ts</string><string>rmvb</string><string>avi</string><string>wmv</string>
+				<string>m3u</string><string>m3u8</string><string>pls</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

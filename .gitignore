@@ -1,0 +1,7 @@
+.build/
+dist/
+.swiftpm/
+Vendor/Sparkle.xcframework/
+*.log
+.DS_Store
+xcuserdata/
